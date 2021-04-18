@@ -34,6 +34,7 @@ function checkDatabase() {
 
   // Get all records from store and set to a variable
   const getAll = store.getAll();
+  console.log(getAll);
 
   // If the request was successful
   getAll.onsuccess = function () {
