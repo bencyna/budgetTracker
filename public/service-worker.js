@@ -3,10 +3,9 @@ const RUNTIME_CACHE = "runtime-cache";
 
 const FILES_TO_CACHE = [
   "/",
-  "/index",
-  "/manifest.json",
-  "/style.css",
-
+  "/index.html",
+  "/dist/manifest.json",
+  "/styles.css",
   "/dist/index.bundle.js",
   "/dist/db.bundle.js",
 
