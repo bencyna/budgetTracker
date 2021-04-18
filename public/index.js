@@ -1,5 +1,3 @@
-import { saveRecord } from "./db";
-
 let transactions = [];
 let myChart;
 
@@ -10,7 +8,6 @@ fetch("/api/transaction")
   .then((data) => {
     // save db data on global variable
     transactions = data;
-
     populateTotal();
     populateTable();
     populateChart();
@@ -96,7 +93,7 @@ function sendTransaction(isAdding) {
   }
 
   // create record
-  const transaction = {
+  let transaction = {
     name: nameEl.value,
     value: amountEl.value,
     date: new Date().toISOString(),

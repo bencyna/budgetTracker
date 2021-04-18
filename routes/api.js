@@ -7,9 +7,7 @@ router.post("/api/transaction", ({ body }, res) => {
       res.json(dbTransaction);
     })
     .catch((err) => {
-      alert("helo");
-      console.log("this is the one u gots to sort bruv");
-      // res.status(404).json(err);
+      res.status(404).json(err);
     });
 });
 
