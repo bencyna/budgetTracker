@@ -21,9 +21,9 @@ The user can input money spent or money made using the UI, it is then stored eit
 
 ## Usage
 
-![image of code and integrated terminal](./assets/screenshot1.jpg)
+![image of service worker & webpack config](./assets/screenshot1.jpg)
 
-![image of code and integrated terminal](./assets/screenshot1.jpg)
+![image of product](./assets/screenshot1.jpg)
 
 ## License
 
