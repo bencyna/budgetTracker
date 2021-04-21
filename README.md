@@ -35,7 +35,7 @@ This project is covered under the MIT License
 
 ## Tests
 
-Go to
+Go to https://ancient-coast-67637.herokuapp.com/
 
 ## Questions
 
