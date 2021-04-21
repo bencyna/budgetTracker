@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
     "webpack": "webpack",
     "prestart": "npm run webpack",
     "seed": "node seeders/seed.js"

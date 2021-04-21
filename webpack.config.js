@@ -15,7 +15,6 @@ const config = {
     new WebpackPwaManifest({
       fingerprints: false,
       inject: false,
-      NPM_CONFIG_PRODUCTION: false,
       name: "Budget App",
       short_name: "BA",
       description: "An application to track budget",

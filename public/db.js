@@ -34,7 +34,6 @@ function checkDatabase() {
 
   // Get all records from store and set to a variable
   const getAll = store.getAll();
-  console.log("-----------------------");
   console.log(getAll);
 
   // If the request was successful
@@ -79,7 +78,7 @@ request.onsuccess = function (e) {
   }
 };
 
-const saveRecord = (record) => {
+export const saveRecord = (record) => {
   console.log("Save record invoked");
   // Create a transaction on the BudgetStore db with readwrite access
   const transaction = db.transaction(["BudgetStore"], "readwrite");
